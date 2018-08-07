@@ -1,0 +1,16 @@
+[package]
+name = "geojson-rewind"
+version = "0.1.0"
+authors = ["ingalls <ingalls@protonmail.com>"]
+description = "Enforce polygon ring winding order for GeoJSON"
+
+homepage = "https://github.com/ingalls/geojson-rewind-rs"
+repository = "https://github.com/ingalls/geojson-rewind-rs"
+
+readme = "README.md"
+
+categories = ["algorithms"]
+license = "MIT"
+
+[dependencies]
+geojson = "0.11.1"

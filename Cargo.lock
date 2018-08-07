@@ -1,0 +1,64 @@
+[[package]]
+name = "dtoa"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "geo-types"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "num-traits 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "geojson"
+version = "0.11.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "geo-types 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "num-traits 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.71 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_json 1.0.24 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "geojson-rewind"
+version = "0.1.0"
+dependencies = [
+ "geojson 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "itoa"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "num-traits"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "serde"
+version = "1.0.71"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "serde_json"
+version = "1.0.24"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "dtoa 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "itoa 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.71 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum dtoa 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)" = "6d301140eb411af13d3115f9a562c85cc6b541ade9dfa314132244aaee7489dd"
+"checksum geo-types 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d46ce94cd761d2d22c0deb98bd79840cd76d1a11f9b41a993dbea03cd3cf6697"
+"checksum geojson 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)" = "fb36a42a24a4a6322d270acc3598d6408923c49656fdbd35b01720eb4a648539"
+"checksum itoa 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "5adb58558dcd1d786b5f0bd15f3226ee23486e24b7b58304b60f64dc68e62606"
+"checksum num-traits 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)" = "630de1ef5cc79d0cdd78b7e33b81f083cbfe90de0f4b2b2f07f905867c70e9fe"
+"checksum serde 1.0.71 (registry+https://github.com/rust-lang/crates.io-index)" = "6dfad05c8854584e5f72fb859385ecdfa03af69c3fd0572f0da2d4c95f060bdb"
+"checksum serde_json 1.0.24 (registry+https://github.com/rust-lang/crates.io-index)" = "c3c6908c7b925cd6c590358a4034de93dbddb20c45e1d021931459fd419bf0e2"
