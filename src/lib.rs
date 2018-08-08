@@ -83,13 +83,3 @@ fn wind(coords: &mut Vec<geojson::Position>, outer: bool) {
     }
 
 }
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-
-    #[test]
-    fn test_points() {
-    }
-}

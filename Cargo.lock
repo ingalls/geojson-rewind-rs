@@ -23,7 +23,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "geojson-rewind"
+name = "geojson_rewind"
 version = "0.1.0"
 dependencies = [
  "geojson 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)",
