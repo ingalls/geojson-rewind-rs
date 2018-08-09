@@ -16,7 +16,9 @@ pub fn rewind(feat: &mut Feature, outer: bool) {
             correct_rings(poly, outer)
         },
         geojson::Value::MultiPolygon(mpoly) => {
-
+            for poly in mpoly {
+                correct_rings(poly, outer)
+            }
         },
         _ => { return }
     }
