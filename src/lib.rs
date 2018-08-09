@@ -81,5 +81,4 @@ fn wind(coords: &mut Vec<geojson::Position>, outer: bool) {
     if area > 0.0 && !outer {
         coords.reverse();
     }
-
 }

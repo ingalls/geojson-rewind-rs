@@ -21,7 +21,7 @@ mod test {
         }"#.parse::<geojson::GeoJson>().unwrap();
 
         if let geojson::GeoJson::Feature(mut feat) = geom {
-            rewind(&mut feat, true);
+            rewind(&mut feat, false);
 
             assert_eq!(feat.geometry, Some(geojson::Geometry {
                 bbox: None,
