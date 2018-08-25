@@ -80,7 +80,7 @@ fn wind(coords: &mut Vec<geojson::Position>, outer: bool) {
     area = area * WGS84_RADIUS * WGS84_RADIUS / 2.0;
     // ---- End of GeoJSON Area ----
 
-    if area > 0.0 && !outer {
+    if (area > 0.0) == !outer {
         coords.reverse();
     }
 }
