@@ -1,6 +1,6 @@
 [package]
 name = "geojson_rewind"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["ingalls <ingalls@protonmail.com>"]
 description = "Enforce polygon ring winding order for GeoJSON"
 
